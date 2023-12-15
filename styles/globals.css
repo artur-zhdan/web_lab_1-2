@@ -1,0 +1,65 @@
+:root {
+  --document-background: #F4F4F4;
+  --comment-hover: #46485e;
+
+  --black: #191919;
+  --stone: #424547;
+  --white: #eeeeee;
+  --grey: #6A6B6B;
+
+  /* --main-font: Inter, monospace; */
+  --main-font: Roboto Mono;
+  /* --main-font: Nunito Sans; */
+  /* --document-font: DM Mono, monospace; */
+  --document-font-weight: 300;
+}
+
+html,
+body {
+  /* overflow: hidden; */
+  /* overscroll-behavior: none; */
+  padding: 0;
+  margin: 0;
+  background-color: var(--black);
+}
+
+::-moz-selection {
+  background-color: #fff;
+  color: var(--grey);
+}
+
+::selection {
+  background-color: #fff;
+  color: var(--grey);
+}
+
+main {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  background: var(--black);
+
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 200;
+  letter-spacing: 0.03em;
+  /* overflow: scroll !important;
+  scroll-behavior: smooth;
+  overscroll-behavior: contain; */
+
+
+}
+
+/* main::-webkit-scrollbar-thumb {
+  background-color: var(--grey);
+  border-radius: 15px;
+}
+
+main::-webkit-scrollbar {
+  width: 5px;
+}
+
+main::-webkit-scrollbar-track {
+  background-color: #00000000;
+} */
